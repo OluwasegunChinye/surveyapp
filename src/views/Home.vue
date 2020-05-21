@@ -10,11 +10,9 @@
       <div class="mt-10 ml-8">
         <v-btn dark large color="#00cecb" class="text-capitalize" router to="/survey">get started</v-btn>
       </div>
-    
-    </v-container>
-    
-    
+    </v-container>  
   </div>
+  
 
 </template>
 
