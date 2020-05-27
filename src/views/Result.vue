@@ -19,6 +19,8 @@
 
 
 <script>
+import { mapGetters } from 'vuex';
+
 export default {
 
   data() {
@@ -31,9 +33,24 @@ export default {
     surveys() {
       return this.$store.state.surveys;
     },
-    leadership(){
-      return this.$store.getters.leadership;
-    }
+    ...mapGetters ([
+      'leadership',
+      'administration',
+      'teaching',
+      'knowledge',
+      'wisdom',
+      'prophecy',
+      'discernment',
+      'exhortation',
+      'shepherding',
+      'faith',
+      'evangelism',
+      'apostleship',
+      'serviceHelps',
+      'mercy',
+      'giving',
+      'hospitality'
+    ])
   }
 }
 </script>
