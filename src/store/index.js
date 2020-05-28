@@ -23,7 +23,7 @@ export default new Vuex.Store({
       {question: 'I take action to meet physical and practical needs rather than merely talking about or planning help.',value:0, id:14},
       {question: 'I enjoy entertaining guests in my home.',value:0, id:15},
       {question: 'I can adapt my guidance to fit the maturity of those working with me.',value:0, id:16},
-      {question: 'I can delegate and assign mmeaningful work.',value:0, id:17},
+      {question: 'I can delegate and assign meaningful work.',value:0, id:17},
       {question: 'I have an ability and desire to teach.',value:0, id:18},
       {question: 'I am usually able to analyze a situation correctly.',value:0, id:19},
       {question: 'I have a natural tendency to encourage others.',value:0, id:20},
@@ -98,7 +98,7 @@ export default new Vuex.Store({
         var c = state.surveys[26].value;
         var d = state.surveys[42].value;
         var e = state.surveys[64].value;
-        return a + b + c + d + e; 
+        return (a + b + c + d + e)*4; 
       },
       administration: state=> {
         var f = state.surveys[0].value ;
@@ -106,7 +106,7 @@ export default new Vuex.Store({
         var h = state.surveys[30].value;
         var i = state.surveys[46].value;
         var j = state.surveys[49].value;
-        return f + g + h + i + j; 
+        return (f + g + h + i + j)*4; 
       },
       teaching: state=> {
         var k = state.surveys[1].value ;
@@ -114,7 +114,7 @@ export default new Vuex.Store({
         var m = state.surveys[32].value;
         var n = state.surveys[60].value;
         var o = state.surveys[72].value;
-        return k + l + m + n + o; 
+        return (k + l + m + n + o)*4; 
       },
       knowledge: state=> {
         var p = state.surveys[8].value ;
@@ -122,7 +122,7 @@ export default new Vuex.Store({
         var r = state.surveys[38].value;
         var s = state.surveys[67].value;
         var t = state.surveys[78].value;
-        return p + q + r + s + t; 
+        return (p + q + r + s + t)*4; 
       },
       wisdom: state=> {
         var u = state.surveys[2].value ;
@@ -130,7 +130,7 @@ export default new Vuex.Store({
         var w = state.surveys[47].value;
         var x = state.surveys[61].value;
         var y = state.surveys[73].value;
-        return u + v + w + x + y; 
+        return (u + v + w + x + y)*4; 
       },
       prophecy: state=> {
         var aa = state.surveys[9].value ;
@@ -138,7 +138,7 @@ export default new Vuex.Store({
         var ca = state.surveys[39].value;
         var da = state.surveys[53].value;
         var ea = state.surveys[68].value;
-        return aa + ba + ca + da + ea; 
+        return (aa + ba + ca + da + ea)*4; 
       },
       discernment: state=> {
         var fa = state.surveys[10].value ;
@@ -146,7 +146,7 @@ export default new Vuex.Store({
         var ha = state.surveys[40].value;
         var ia = state.surveys[54].value;
         var ja = state.surveys[69].value;
-        return fa + ga + ha + ia + ja; 
+        return (fa + ga + ha + ia + ja)*4; 
       },
       exhortation: state=> {
         var ka = state.surveys[19].value ;
@@ -154,7 +154,7 @@ export default new Vuex.Store({
         var ma = state.surveys[48].value;
         var na = state.surveys[62].value;
         var oa = state.surveys[74].value;
-        return ka + la + ma + na + oa; 
+        return (ka + la + ma + na + oa)*4; 
       },
       shepherding: state=> {
         var pa = state.surveys[3].value ;
@@ -162,7 +162,7 @@ export default new Vuex.Store({
         var ra = state.surveys[34].value;
         var sa = state.surveys[49].value;
         var ta = state.surveys[75].value;
-        return pa + qa + ra + sa + ta; 
+        return (pa + qa + ra + sa + ta)*4; 
       },
       faith: state=> {
         var ua = state.surveys[11].value ;
@@ -170,7 +170,7 @@ export default new Vuex.Store({
         var wa = state.surveys[41].value;
         var xa = state.surveys[55].value;
         var ya = state.surveys[79].value;
-        return ua + va + wa + xa + ya; 
+        return (ua + va + wa + xa + ya)*4; 
       },
       evangelism: state=> {
         var ab = state.surveys[4].value ;
@@ -178,7 +178,7 @@ export default new Vuex.Store({
         var cb = state.surveys[4].value;
         var db = state.surveys[63].value;
         var eb = state.surveys[78].value;
-        return ab + bb + cb + db + eb; 
+        return (ab + bb + cb + db + eb)*4; 
       },
       apostleship: state=> {
         var ac = state.surveys[12].value ;
@@ -186,7 +186,7 @@ export default new Vuex.Store({
         var cc = state.surveys[43].value;
         var dc = state.surveys[56].value;
         var ec = state.surveys[70].value;
-        return ac + bc + cc + dc + ec; 
+        return (ac + bc + cc + dc + ec)*4; 
       },
        serviceHelps: state=> {
         var ad = state.surveys[13].value ;
@@ -194,7 +194,7 @@ export default new Vuex.Store({
         var cd = state.surveys[45].value;
         var dd = state.surveys[57].value;
         var ed = state.surveys[71].value;
-        return ad + bd + cd + dd + ed; 
+        return (ad + bd + cd + dd + ed)*4; 
       },
       mercy: state=> {
         var ae = state.surveys[6].value ;
@@ -202,7 +202,7 @@ export default new Vuex.Store({
         var ce = state.surveys[36].value;
         var de = state.surveys[51].value;
         var ee = state.surveys[65].value;
-        return ae + be + ce + de + ee; 
+        return (ae + be + ce + de + ee)*4; 
       },
       giving: state=> {
         var af = state.surveys[7].value ;
@@ -210,7 +210,7 @@ export default new Vuex.Store({
         var cf = state.surveys[37].value;
         var df = state.surveys[52].value;
         var ef = state.surveys[66].value;
-        return af + bf + cf + df + ef; 
+        return (af + bf + cf + df + ef)*4; 
       },
       hospitality: state=> {
         var ag = state.surveys[14].value ;
@@ -218,7 +218,7 @@ export default new Vuex.Store({
         var cg = state.surveys[44].value;
         var dg = state.surveys[59].value;
         var eg = state.surveys[77].value;
-        return ag + bg + cg + dg + eg; 
+        return (ag + bg + cg + dg + eg)*4; 
       },
   },
 

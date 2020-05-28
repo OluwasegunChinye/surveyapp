@@ -1,11 +1,11 @@
 <template>
   <div class="main hidden-sm-and-up"> 
-    <v-container >
+    <v-container class='mt-5'>
       <p class="font-weight-bold text-center mt-7" id="title" >Spiritual Growth Survey</p>
       <p class="font-weight-bold text-capitalize text-center mt-12 mb-0">The body of Christ and your part</p>
       <p class="font-weight-light text-justify px-3 mx-6" id="content">Every Christian is given at least one gift at conversion. Our initial gift may lie dormant for a while as we mature. These gifts seem to remain with believers throughout their lives. One can have more than one( 1 ) gift as ministry increases and the need for manisfestation of these gifts increase.</p>
-      <p class="font-weight-bold text-capitalize text-left ml-9 mt-12 mb-0 ">love to identify your gifts?</p>
-      <p class="font-weight-light text-justify px-3 mx-6" id="content2">If your answer is 'yes', click button to take a quick survey.</p>
+      <p class="font-weight-bold text-capitalize text-left ml-9 mt-10 mb-0 ">love to identify your gifts?</p>
+      <p class="font-weight-light text-justify px-3 mx-6" id="content2">If your answer is 'yes', click button to take a quick survey on our App.</p>
 
       <div class="mt-10 ml-8">
         <v-btn dark large color="#00cecb" class="text-capitalize" router to="/survey">get started</v-btn>
@@ -41,7 +41,7 @@ export default {
 
 #title {
   font-size: 22px;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
 }
 
 #content {
@@ -50,5 +50,20 @@ export default {
 
 #content2 {
   font-size: 12px;
+}
+
+
+// media query to cover 600px screen size and above 
+
+@media only screen and (min-width: 600px) {
+  .main {
+  background-image: url("../assets/DesktopBG.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position : absolute;
+  background-size: cover;
+  }
 }
 </style>
