@@ -1,5 +1,5 @@
 <template>
-  <div class="hidden-sm-and-up main" >
+  <div class="hidden-sm-and-up main">
   
     <div class="inner-wrapper">
       <div class="text-center">
@@ -34,7 +34,7 @@
           </v-card>
         </v-col>
       </v-row>
-      <v-btn id="" class="mx-8 my-6" color="#2a4494" dark large router to="/result">s u b m i t</v-btn>       
+      <v-btn id="" class="mx-8 my-6" color="#2a4494"  dark large router to="/result">s u b m i t</v-btn>       
     </div>
   </div>
 </template>
