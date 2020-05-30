@@ -21,7 +21,7 @@
       </div>
 
       <v-row class="mx-4" style='justify-content: center;'>
-        <v-col xs="12 " class="mt-12">
+        <v-col xs="12" class="mt-12">
           <v-card outlined class="pa-2 mb-3 " color="#b8bedd" v-for="(survey, index) in surveys" :key="index" :id="index" >
             <p> <span id="number">Q{{index+1}}. </span >{{survey.question}}</p>
             <v-radio-group row  dense v-model.number="survey.value">
@@ -76,9 +76,10 @@ p {
   color:#2a4494;
   padding: 2px;
   text-align: justify;
+  font-size: 14px;
 
   #number {
-    font-size: 20px;
+    font-size: 15px;
     margin: 0 10px ;
   } 
 

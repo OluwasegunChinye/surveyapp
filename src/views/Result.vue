@@ -5,10 +5,10 @@
       <!-- dialog + modal pop up here -->
 
       <v-dialog v-model= "dialog" persistent width="300" height="50" >
-        <v-card color="primary" dark>
+        <v-card color="#5a189a" dark>
           <v-card-text class="pa-5">
-            chilling.....
-            <v-progress-linear indeterminate color="white" class="mb-0" ></v-progress-linear>
+            loading.....
+            <v-progress-linear  indeterminate color="white" class="mb-0" ></v-progress-linear>
           </v-card-text>
         </v-card>
       </v-dialog>
@@ -19,15 +19,15 @@
     <div class="mb-4 main">
 
     <!--- intro card for result page here  -->
-    <v-container>
-      <v-card dark color="#5a189a">
-        <v-card-title>Hurray! you done, </v-card-title>
-      </v-card>
-      
-    </v-container>
-    
 
-     <!-- code ends here here -->    
+      <v-container>
+        <v-card dark color="#5a189a">
+          <v-card-title>Hurray! you done, </v-card-title>
+        </v-card>
+      </v-container>
+
+     <!-- code ends here here -->   
+
       <div class="d-flex flex-column mx-8 ">
         <div class="d-flex ">
           <v-card-text>Leadership</v-card-text>
@@ -126,9 +126,9 @@
           </v-btn>
           <v-btn fab color="" router to="/"><v-icon color="">fas fa-home</v-icon></v-btn>
           <v-btn fab  color="" router to="/survey"><v-icon color="">far fa-edit</v-icon></v-btn>
-          <v-btn fab color=""><v-icon color="">far fa-grin-stars</v-icon></v-btn>
+          <v-btn fab color="" router to="/about"><v-icon color="">far fa-grin-stars</v-icon></v-btn>
         </v-speed-dial>
-    </div>  
+    </div>
   </div>
 
 </template>
