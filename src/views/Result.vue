@@ -22,7 +22,7 @@
 
       <v-container>
         <v-card dark color="#5a189a">
-          <v-card-title>Hurray! you done, </v-card-title>
+          <v-card-title>Hurray !!!</v-card-title>
         </v-card>
       </v-container>
 

@@ -1,6 +1,6 @@
 <template>
     <div class="hidden-sm-and-up mx-6 my-12 about" >
-        <v-btn router to="/" text ><v-icon color="#5a189a">fas fa-arrow-left</v-icon></v-btn>
+        <v-btn router to="/" text fab ><v-icon color="#5a189a">fas fa-arrow-left</v-icon></v-btn>
         
         <v-container>
             <v-row class="text-justify">
@@ -19,13 +19,12 @@
             <v-row class="mt-6">
                 <v-col class="text-justify">
                     <h2>So.....</h2>
-                    <p>I participated in the survey exercise and rigth there the idea of having the survey in electronic format seemed a cool thing to do. I am not a tech person by profession, but basic understanding of Tech is adds an extra feather to the cap in a driven Tech world) i am self taught and how else was i suppose to practice what i have learned ...so there we have it.</p>
-                    
+                    <p>I participated in the survey exercise and rigth there the thought of having the survey in electronic format seemed a cool idea.... how else was i suppose to practice what i have learned ?. You see, am not a tech person by profession but sometime ago i decided to  learn the basics of programming. Thanks to google and youtube i am self taught green horn. With the current lock down situation i just had to take it up as a project to test my knowledge...So here we have it...the app.</p>
                 </v-col>
             </v-row>
             <v-row class="mt-12">
                 <v-col>
-                    <p>Built by <v-icon color="yellow">far fa-grin-stars</v-icon>  with <v-icon color="red" >fas fa-heart</v-icon> using <v-icon color="#00cecb" >fab fa-vuejs</v-icon> for the year 2020</p>
+                    <p>Built and Designed by <a v-bind:href="me"  target="_blank" style="text-decoration:none;"><v-icon color="yellow">far fa-grin-stars</v-icon> </a> with <v-icon color="red" small >fas fa-heart</v-icon> using <v-icon color="#00cecb" small >fab fa-vuejs</v-icon></p>
                 </v-col> 
             </v-row>
         </v-container>
@@ -43,6 +42,7 @@
         data(){
             return {
                 website:'https://www.lifeway.com/',
+                me: "https://twitter.com/SegunChinye",
             }
         },
     }
