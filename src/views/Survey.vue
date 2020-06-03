@@ -9,7 +9,7 @@
             <v-card-text class="text-justify mt-2">
               This is not a Test, so there are no wrong answers.The Spritual Gifts Survey consist of 80 statements. Some items reflect concrete actions,   descriptive traits and statements of belief.
               Do not spend too much time on any item.Remember, its not a test. Usually your immediate response is best.
-              Please give an answer for each item, do not skip. Your Response choice are between the range of 1 to 5, click twice to confirm your choice. God bless :)
+              Please give an answer for each item, do not skip. Your Response choice are between the range of 1 to 5, click to confirm your choice. God bless :)
             </v-card-text>
             <v-divider></v-divider>
             <v-card-actions>
