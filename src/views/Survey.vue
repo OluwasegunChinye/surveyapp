@@ -24,7 +24,7 @@
         <v-col xs="12" class="mt-12">
           <v-card outlined class="pa-2 mb-3 " color="#b8bedd" v-for="(survey, index) in surveys" :key="index" :id="index" >
             <p> <span id="number">Q{{index+1}}. </span >{{survey.question}}</p>
-            <v-radio-group row  dense v-model.number="survey.value">
+            <v-radio-group row  dense v-model="survey.value">
               <v-radio color="#2a4494" label="1" :value="1"></v-radio>
               <v-radio color="#2a4494" label="2" :value="2"></v-radio>
               <v-radio color="#2a4494" label="3" :value="3"></v-radio>
