@@ -1,7 +1,7 @@
 <template>
   <div class="hidden-sm-and-up main">
   
-    <div class="inner-wrapper">
+    <div class="inner-wrapper mt-1">
       <div class="text-center">
         <v-dialog v-model="dialog" persistent width="500">
           <v-card>

@@ -1,6 +1,6 @@
 <template>
 
-  <div class="hidden-sm-and-up mx-6 mt-12 ">
+  <div class="hidden-sm-and-up mx-6 mt-4 ">
 
       <!-- dialog + modal pop up here -->
 
@@ -17,6 +17,8 @@
 
 
     <div class="mb-4 main">
+
+    <v-btn router to="/" text fab ><v-icon color="#5a189a">fas fa-arrow-left</v-icon></v-btn>
 
     <!--- intro card for result page here  -->
 
@@ -120,14 +122,18 @@
 
      <!--  code for dynamic effect button here..below  -->
     
-        <v-speed-dial v-model="fab" absolute :left='left' :direction='direction' style="margin : 20px 0px 20px 10px;" :transition="transition">
+       <!-- <v-speed-dial v-model="fab" absolute :left='left' :direction='direction' style="margin : 20px 0px 20px 10px;" :transition="transition">
           <v-btn slot="activator" fab large v-model="fab" color="#5a189a">
                <v-icon color="white">fas fa-check</v-icon>
           </v-btn>
           <v-btn fab color="" router to="/"><v-icon color="">fas fa-home</v-icon></v-btn>
           <v-btn fab  color="" router to="/survey"><v-icon color="">far fa-edit</v-icon></v-btn>
           <v-btn fab color="" router to="/about"><v-icon color="">far fa-grin-stars</v-icon></v-btn>
-        </v-speed-dial>
+        </v-speed-dial> -->
+
+        <!--  BELOW :- decided to settle for a simpe arrow icon to redirect user to homepage -->
+
+        <v-btn router to="/" text fab ><v-icon color="#5a189a">fas fa-arrow-left</v-icon></v-btn>
     </div>
   </div>
 
@@ -142,16 +148,16 @@ export default {
   data() {
     return {
       dialog: true,
-      direction: 'right',
-      fab: false,
-      fling: false,
-      hover: false,
-      tabs: null,
-      top: false,
-      right: true,
-      bottom: true,
-      left: false,
-      transition: 'slide-x-transition',
+    //  direction: 'right',
+    //  fab: false,
+     // fling: false,
+     // hover: false,
+     // tabs: null,
+     // top: false,
+     // right: true,
+     // bottom: true,
+     // left: false,
+     // transition: 'slide-x-transition',
     }
   },
   
