@@ -13,7 +13,7 @@
                         <h2>app.</h2>
                 </v-col>
                 <v-col class="text-justify col-7">
-                    <p>Firstly, the content of the Spiritual Gifts Survey App is credited to the Bible Study Outline by Sis Moyin at Ketu House Fellowship Lagos, the study included a take home survey in hard copy. Soruce of Survey is <a v-bind:href ="website"  target="_blank" style="text-decoration:none;">Lifeway Christain Resources</a></p>
+                    <p>Firstly, the content of the Spiritual Gifts Survey App is credited to the Bible Study Outline by Sis Moyin at Ketu House Fellowship Lagos, the study included a take home survey in hard copy. Source of Survey is <a v-bind:href ="website"  target="_blank" style="text-decoration:none;">Lifeway Christain Resources</a></p>
                 </v-col>
             </v-row>
             <v-row class="mt-7">
@@ -55,8 +55,6 @@
     font-family : 'Kodchasan', sans-serif;
     font-size: 11px;
 }
-#header{
 
-}
 
 </style>

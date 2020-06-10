@@ -116,7 +116,7 @@
     <v-container>
       <v-card class="text-justify pa-2" dark color="#5a189a">
         <v-card-title>Hello again..</v-card-title>
-        <v-card-text class="white--text">The Gifts with the highest percentage score indicates your area of strenght and vice versa. Ask God to help you know how He has gifted you for service and how you can begin to use this gift in ministry to others.To exit this page click check button below. God bless you.  </v-card-text>
+        <v-card-text class="white--text">The Gifts with the highest percentage score indicates your area of strenght and vice versa. Ask God to help you know how He has gifted you for service and how you can begin to use this gift in ministry to others. God bless you.  </v-card-text>
       </v-card>
     </v-container>
 
