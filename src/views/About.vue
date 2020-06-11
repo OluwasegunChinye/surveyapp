@@ -10,7 +10,7 @@
                         <h2>something</h2>
                         <h2>about</h2>
                         <h2>the</h2>
-                        <h2>app.</h2>
+                        <h2>app</h2>
                 </v-col>
                 <v-col class="text-justify col-7">
                     <p>Firstly, the content of the Spiritual Gifts Survey App is credited to the Bible Study Outline by Sis Moyin at Ketu House Fellowship Lagos, the study included a take home survey in hard copy. Source of Survey is <a v-bind:href ="website"  target="_blank" style="text-decoration:none;">Lifeway Christain Resources</a></p>
@@ -18,7 +18,7 @@
             </v-row>
             <v-row class="mt-7">
                 <v-col class="text-justify">
-                    <h2>So.....</h2>
+                    <h2>So....</h2>
                     <p>I participated in the survey exercise and rigth there the thought of having the survey in electronic format seemed a cool idea.... how else was i suppose to practice what i have learned ?. You see, am not a tech person by profession but sometime ago i decided to  learn the basics of programming. Thanks to google and youtube i am self taught green horn. With the current lock down situation i just had to take it up as a project to test my knowledge...So here we have it...the app.</p>
                 </v-col>
             </v-row>
