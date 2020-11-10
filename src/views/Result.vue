@@ -18,7 +18,7 @@
 
     <div class="mb-4 main">
 
-    <v-btn router to="/" text fab ><v-icon color="#5a189a">fas fa-arrow-left</v-icon></v-btn>
+    <v-btn text fab ><a style="text-decoration: none" href="https://loving-bartik-eb543f.netlify.app"><v-icon color="#5a189a">fas fa-arrow-left</v-icon></a></v-btn>
 
     <!--- intro card for result page here  -->
 
@@ -133,7 +133,7 @@
 
         <!--  BELOW :- decided to settle for a simpe arrow icon to redirect user to homepage -->
 
-        <v-btn router to="/" text fab ><v-icon color="#5a189a">fas fa-arrow-left</v-icon></v-btn>
+        <v-btn text fab ><a style="text-decoration: none" href="https://loving-bartik-eb543f.netlify.app"><v-icon color="#5a189a">fas fa-arrow-left</v-icon></a></v-btn>
     </div>
   </div>
 
